@@ -20,139 +20,139 @@
     "doc": "Atom",
     "title": "Atom",
     "content": " ",
-    "url": "/docs/editors/atom.html",
-    "relUrl": "/docs/editors/atom.html"
+    "url": "/editors/atom.html",
+    "relUrl": "/editors/atom.html"
   },"4": {
     "doc": "Jen",
     "title": "Jen",
     "content": " ",
-    "url": "/docs/editors/jen.html",
-    "relUrl": "/docs/editors/jen.html"
+    "url": "/editors/jen.html",
+    "relUrl": "/editors/jen.html"
   },"5": {
     "doc": "Nano",
     "title": "Nano",
     "content": " ",
-    "url": "/docs/editors/nano.html",
-    "relUrl": "/docs/editors/nano.html"
+    "url": "/editors/nano.html",
+    "relUrl": "/editors/nano.html"
   },"6": {
     "doc": "Nano",
     "title": "Nano Configuration",
     "content": "Nano’s config file exists in two location: in user home directory as “~/.nanorc” or system-wide as “/etc/nanorc”. To get started, copy the system-wide config to the home directory: . cp /etc/nanorc ~/.nanorc . This template file includes a list of options and are also explained. It acts as a good starting point to explore what some of the options Nano’s config offers. A simplified starting point can be found here. CouldBeThis has a [collection of syntax definitions] to bring some colours to the text editor. To include these, do the following steps: . | Follow the installation steps in the readme document | The install.sh script creates a new .nanorc file in the home directory. Overwrite this document with the following code: # Include syntax definitions include \"~/.nano/*.nanorc\" . This simplifies the code. | . To implement syntax definitions system wide, move them to /usr/share/nano/. sudo cp ~/.nano/*.nanorc\" /usr/share/nano/ . ",
-    "url": "/docs/editors/nano.html#nano-configuration",
-    "relUrl": "/docs/editors/nano.html#nano-configuration"
+    "url": "/editors/nano.html#nano-configuration",
+    "relUrl": "/editors/nano.html#nano-configuration"
   },"7": {
     "doc": "Notepad++",
     "title": "Notepad++",
     "content": " ",
-    "url": "/docs/editors/notepadpp.html",
-    "relUrl": "/docs/editors/notepadpp.html"
+    "url": "/editors/notepadpp.html",
+    "relUrl": "/editors/notepadpp.html"
   },"8": {
     "doc": "Text Editors",
     "title": "Text Editors",
     "content": " ",
-    "url": "/docs/editors/text_editors.html",
-    "relUrl": "/docs/editors/text_editors.html"
+    "url": "/editors/text_editors.html",
+    "relUrl": "/editors/text_editors.html"
   },"9": {
     "doc": "Vim",
     "title": "Vim",
     "content": " ",
-    "url": "/docs/editors/vim.html",
-    "relUrl": "/docs/editors/vim.html"
+    "url": "/editors/vim.html",
+    "relUrl": "/editors/vim.html"
   },"10": {
     "doc": "Visual Studio Code",
     "title": "Visual Studio Code",
     "content": "Install Visual Studio Code on Debian Souce: https://code.visualstudio.com/docs/setup/linux . sudo apt-get install wget gpg wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor &gt; packages.microsoft.gpg sudo install -o root -g root -m 644 packages.microsoft.gpg /etc/apt/trusted.gpg.d/ sudo sh -c 'echo \"deb [arch=amd64,arm64,armhf signed-by=/etc/apt/trusted.gpg.d/packages.microsoft.gpg] https://packages.microsoft.com/repos/code stable main\" &gt; /etc/apt/sources.list.d/vscode.list' rm -f packages.microsoft.gpg sudo apt install apt-transport-https sudo apt update sudo apt install code # or code-insiders . ",
-    "url": "/docs/editors/vsc.html",
-    "relUrl": "/docs/editors/vsc.html"
+    "url": "/editors/vsc.html",
+    "relUrl": "/editors/vsc.html"
   },"11": {
     "doc": "Commands",
     "title": "Commands",
     "content": "Create new file: . mkdir FILENAME . Create new directory: . mkdir DIRNAME . Move file or directory: . mv SOURCE TARGET . Rename file or directory: see code above . Copy file: . cp SOURCE TARGET . Copy directory: . cp -r SOURCE TARGET . ",
-    "url": "/docs/files/file_commands.html",
-    "relUrl": "/docs/files/file_commands.html"
+    "url": "/files/file_commands.html",
+    "relUrl": "/files/file_commands.html"
   },"12": {
     "doc": "File Management",
     "title": "File Management",
     "content": " ",
-    "url": "/docs/files/file_management.html",
-    "relUrl": "/docs/files/file_management.html"
+    "url": "/files/file_management.html",
+    "relUrl": "/files/file_management.html"
   },"13": {
     "doc": "Tools",
     "title": "Tools",
     "content": "Ranger: networkworld.com Activate the Ranger interface: . ranger . ",
-    "url": "/docs/files/tools.html",
-    "relUrl": "/docs/files/tools.html"
+    "url": "/files/tools.html",
+    "relUrl": "/files/tools.html"
   },"14": {
     "doc": "Create Bootable Drive",
     "title": "Create Bootable USB Drive",
     "content": " ",
-    "url": "/docs/linux_utilities/create_bootable_drive.html#create-bootable-usb-drive",
-    "relUrl": "/docs/linux_utilities/create_bootable_drive.html#create-bootable-usb-drive"
+    "url": "/linux_utilities/create_bootable_drive.html#create-bootable-usb-drive",
+    "relUrl": "/linux_utilities/create_bootable_drive.html#create-bootable-usb-drive"
   },"15": {
     "doc": "Create Bootable Drive",
     "title": "Windows",
     "content": "WoeUSB is a tool to create a bootable flash drive media for Windows systems. Download the application from the WoeUSB repository and use the following commands where the .bash file was downloaded to: . chmod +x path/to/woeusb-N.N.N.bash sudo bash path/to/woeusb-N.N.N.bash --devices win.iso /dev/sdX # win.iso is the Windows iso file, and sdX is the file representing the flash drive . Disclaimer: The application does not prompt you to confirm this action. Please ensure that the file and drive are correct. Disclaimer: The process may take a long time. It may seem to hault, but is actually doing work in the background. ",
-    "url": "/docs/linux_utilities/create_bootable_drive.html#windows",
-    "relUrl": "/docs/linux_utilities/create_bootable_drive.html#windows"
+    "url": "/linux_utilities/create_bootable_drive.html#windows",
+    "relUrl": "/linux_utilities/create_bootable_drive.html#windows"
   },"16": {
     "doc": "Create Bootable Drive",
     "title": "Create Bootable Drive",
     "content": " ",
-    "url": "/docs/linux_utilities/create_bootable_drive.html",
-    "relUrl": "/docs/linux_utilities/create_bootable_drive.html"
+    "url": "/linux_utilities/create_bootable_drive.html",
+    "relUrl": "/linux_utilities/create_bootable_drive.html"
   },"17": {
     "doc": "Devices",
     "title": "Devices",
     "content": " ",
-    "url": "/docs/linux_utilities/devices.html",
-    "relUrl": "/docs/linux_utilities/devices.html"
+    "url": "/linux_utilities/devices.html",
+    "relUrl": "/linux_utilities/devices.html"
   },"18": {
     "doc": "Devices",
     "title": "Device Information",
     "content": "List all PCI devices and devices attached to PCI buses: . lspci . DMI table decoder . dmidecode . ",
-    "url": "/docs/linux_utilities/devices.html#device-information",
-    "relUrl": "/docs/linux_utilities/devices.html#device-information"
+    "url": "/linux_utilities/devices.html#device-information",
+    "relUrl": "/linux_utilities/devices.html#device-information"
   },"19": {
     "doc": "Devices",
     "title": "Disk Info and Partitioning",
     "content": "Command-line disk partitioning: . fdisk . List all disk partitions: . sudo blkid . ",
-    "url": "/docs/linux_utilities/devices.html#disk-info-and-partitioning",
-    "relUrl": "/docs/linux_utilities/devices.html#disk-info-and-partitioning"
+    "url": "/linux_utilities/devices.html#disk-info-and-partitioning",
+    "relUrl": "/linux_utilities/devices.html#disk-info-and-partitioning"
   },"20": {
     "doc": "Utilities",
     "title": "Utilities",
     "content": " ",
-    "url": "/docs/linux_utilities/utilities.html",
-    "relUrl": "/docs/linux_utilities/utilities.html"
+    "url": "/linux_utilities/utilities.html",
+    "relUrl": "/linux_utilities/utilities.html"
   },"21": {
     "doc": "Bash",
     "title": "Bash",
     "content": "One of the most commonly used shell command languages and the default shell in most popular Linux distributions. User customizations are commonly found in .bashrc. The full path is: “/home/username/.bashrc”. If the user is root, then the full path is: “/root”. Creating a new user may not include a new home directory, in which case Bash doesn’t setup customization options for you. To do this, do the following: . | Create a new home directory and transfer its ownership to the new user (assuming that you’re the root user) cd /home mkdir username # The new user's username chown username:username username cd username . | Create “.bash_profile” using touch .bash_profile and use your favourite editor to append the following code: if [ -f ~/.bashrc ]; then source ~/.bashrc fi . | . To read about the difference between “.bash_profile” and “.bashrc”, and to learn more about them, read here . This post from Stack Overflow explains the order of which Bash loads configuration files. Bash is extremely customizable. Here is a starting point. ",
-    "url": "/docs/shells/bash.html",
-    "relUrl": "/docs/shells/bash.html"
+    "url": "/shells/bash.html",
+    "relUrl": "/shells/bash.html"
   },"22": {
     "doc": "Shell Languages",
     "title": "Shell Languages",
     "content": " ",
-    "url": "/docs/shells/shell_languages.html",
-    "relUrl": "/docs/shells/shell_languages.html"
+    "url": "/shells/shell_languages.html",
+    "relUrl": "/shells/shell_languages.html"
   },"23": {
     "doc": "Terminal",
     "title": "Terminal",
     "content": " ",
-    "url": "/docs/terminal_interfaces/terminal.html",
-    "relUrl": "/docs/terminal_interfaces/terminal.html"
+    "url": "/terminal_interfaces/terminal.html",
+    "relUrl": "/terminal_interfaces/terminal.html"
   },"24": {
     "doc": "Terminal Emulators",
     "title": "Terminal Emulators",
     "content": ". | Terminator | Qterminal | . ",
-    "url": "/docs/terminal_interfaces/terminal_emulators.html",
-    "relUrl": "/docs/terminal_interfaces/terminal_emulators.html"
+    "url": "/terminal_interfaces/terminal_emulators.html",
+    "relUrl": "/terminal_interfaces/terminal_emulators.html"
   },"25": {
     "doc": "test",
     "title": "test",
     "content": " ",
-    "url": "/docs/test.html",
-    "relUrl": "/docs/test.html"
+    "url": "/test.html",
+    "relUrl": "/test.html"
   }
 }
