@@ -2,157 +2,157 @@
     "doc": "About",
     "title": "About",
     "content": "This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at jekyllrb.com . You can find the source code for Minima at GitHub: jekyll / minima . You can find the source code for Jekyll at GitHub: jekyll / jekyll . ",
-    "url": "LinuxHacks/docs/about/",
+    "url": "/docs/about/",
     "relUrl": "/about/"
   },"1": {
     "doc": "Home",
     "title": "Welcome to Linux Hacks!",
     "content": "This page is based on the Github Gists Useful Linux Commands. ",
-    "url": "LinuxHacks/docs/#welcome-to-linux-hacks",
+    "url": "/docs/#welcome-to-linux-hacks",
     "relUrl": "/#welcome-to-linux-hacks"
   },"2": {
     "doc": "Home",
     "title": "Home",
     "content": " ",
-    "url": "LinuxHacks/docs/",
+    "url": "/docs/",
     "relUrl": "/"
   },"3": {
     "doc": "Commands",
     "title": "Commands",
     "content": "Create new file: . mkdir FILENAME . Create new directory: . mkdir DIRNAME . Move file or directory: . mv SOURCE TARGET . Rename file or directory: see code above . Copy file: . cp SOURCE TARGET . Copy directory: . cp -r SOURCE TARGET . ",
-    "url": "LinuxHacks/docs/file_management/file_commands.html",
+    "url": "/docs/file_management/file_commands.html",
     "relUrl": "/file_management/file_commands.html"
   },"4": {
     "doc": "File Management",
     "title": "File Management",
     "content": " ",
-    "url": "LinuxHacks/docs/file_management/file_management.html",
+    "url": "/docs/file_management/file_management.html",
     "relUrl": "/file_management/file_management.html"
   },"5": {
     "doc": "Tools",
     "title": "Tools",
     "content": "Ranger: networkworld.com Activate the Ranger interface: . ranger . ",
-    "url": "LinuxHacks/docs/file_management/tools.html",
+    "url": "/docs/file_management/tools.html",
     "relUrl": "/file_management/tools.html"
   },"6": {
     "doc": "Bash",
     "title": "Bash",
     "content": "One of the most commonly used shell command languages and the default shell in most popular Linux distributions. User customizations are commonly found in .bashrc. The full path is: “/home/username/.bashrc”. If the user is root, then the full path is: “/root”. Creating a new user may not include a new home directory, in which case Bash doesn’t setup customization options for you. To do this, do the following: . | Create a new home directory and transfer its ownership to the new user (assuming that you’re the root user) cd /home mkdir username # The new user's username chown username:username username cd username . | Create “.bash_profile” using touch .bash_profile and use your favourite editor to append the following code: if [ -f ~/.bashrc ]; then source ~/.bashrc fi . | . To read about the difference between “.bash_profile” and “.bashrc”, and to learn more about them, read here . This post from Stack Overflow explains the order of which Bash loads configuration files. Bash is extremely customizable. Here is a starting point. ",
-    "url": "LinuxHacks/docs/shells/bash.html",
+    "url": "/docs/shells/bash.html",
     "relUrl": "/shells/bash.html"
   },"7": {
     "doc": "Shells",
     "title": "Shells",
     "content": " ",
-    "url": "LinuxHacks/docs/shells/shells.html",
+    "url": "/docs/shells/shells.html",
     "relUrl": "/shells/shells.html"
   },"8": {
     "doc": "Terminal",
     "title": "Terminal",
     "content": " ",
-    "url": "LinuxHacks/docs/terminal/terminal.html",
+    "url": "/docs/terminal/terminal.html",
     "relUrl": "/terminal/terminal.html"
   },"9": {
     "doc": "Terminal Emulators",
     "title": "Terminal Emulators",
     "content": ". | Terminator | Qterminal | . ",
-    "url": "LinuxHacks/docs/terminal/terminal_emulators.html",
+    "url": "/docs/terminal/terminal_emulators.html",
     "relUrl": "/terminal/terminal_emulators.html"
   },"10": {
     "doc": "test",
     "title": "test",
     "content": " ",
-    "url": "LinuxHacks/docs/test.html",
+    "url": "/docs/test.html",
     "relUrl": "/test.html"
   },"11": {
     "doc": "Atom",
     "title": "Atom",
     "content": " ",
-    "url": "LinuxHacks/docs/text_editors/atom.html",
+    "url": "/docs/text_editors/atom.html",
     "relUrl": "/text_editors/atom.html"
   },"12": {
     "doc": "Jen",
     "title": "Jen",
     "content": " ",
-    "url": "LinuxHacks/docs/text_editors/jen.html",
+    "url": "/docs/text_editors/jen.html",
     "relUrl": "/text_editors/jen.html"
   },"13": {
     "doc": "Nano",
     "title": "Nano",
     "content": " ",
-    "url": "LinuxHacks/docs/text_editors/nano.html",
+    "url": "/docs/text_editors/nano.html",
     "relUrl": "/text_editors/nano.html"
   },"14": {
     "doc": "Nano",
     "title": "Nano Configuration",
     "content": "Nano’s config file exists in two location: in user home directory as “~/.nanorc” or system-wide as “/etc/nanorc”. To get started, copy the system-wide config to the home directory: . cp /etc/nanorc ~/.nanorc . This template file includes a list of options and are also explained. It acts as a good starting point to explore what some of the options Nano’s config offers. A simplified starting point can be found here. CouldBeThis has a [collection of syntax definitions] to bring some colours to the text editor. To include these, do the following steps: . | Follow the installation steps in the readme document | The install.sh script creates a new .nanorc file in the home directory. Overwrite this document with the following code: # Include syntax definitions include \"~/.nano/*.nanorc\" . This simplifies the code. | . To implement syntax definitions system wide, move them to /usr/share/nano/. sudo cp ~/.nano/*.nanorc\" /usr/share/nano/ . ",
-    "url": "LinuxHacks/docs/text_editors/nano.html#nano-configuration",
+    "url": "/docs/text_editors/nano.html#nano-configuration",
     "relUrl": "/text_editors/nano.html#nano-configuration"
   },"15": {
     "doc": "Notepad++",
     "title": "Notepad++",
     "content": " ",
-    "url": "LinuxHacks/docs/text_editors/notepadpp.html",
+    "url": "/docs/text_editors/notepadpp.html",
     "relUrl": "/text_editors/notepadpp.html"
   },"16": {
     "doc": "Text Editors",
     "title": "Text Editors",
     "content": " ",
-    "url": "LinuxHacks/docs/text_editors/text_editors.html",
+    "url": "/docs/text_editors/text_editors.html",
     "relUrl": "/text_editors/text_editors.html"
   },"17": {
     "doc": "Vim",
     "title": "Vim",
     "content": " ",
-    "url": "LinuxHacks/docs/text_editors/vim.html",
+    "url": "/docs/text_editors/vim.html",
     "relUrl": "/text_editors/vim.html"
   },"18": {
     "doc": "Visual Studio Code",
     "title": "Visual Studio Code",
     "content": "Install Visual Studio Code on Debian Souce: https://code.visualstudio.com/docs/setup/linux . sudo apt-get install wget gpg wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor &gt; packages.microsoft.gpg sudo install -o root -g root -m 644 packages.microsoft.gpg /etc/apt/trusted.gpg.d/ sudo sh -c 'echo \"deb [arch=amd64,arm64,armhf signed-by=/etc/apt/trusted.gpg.d/packages.microsoft.gpg] https://packages.microsoft.com/repos/code stable main\" &gt; /etc/apt/sources.list.d/vscode.list' rm -f packages.microsoft.gpg sudo apt install apt-transport-https sudo apt update sudo apt install code # or code-insiders . ",
-    "url": "LinuxHacks/docs/text_editors/vsc.html",
+    "url": "/docs/text_editors/vsc.html",
     "relUrl": "/text_editors/vsc.html"
   },"19": {
     "doc": "Create Bootable Drive",
     "title": "Create Bootable USB Drive",
     "content": " ",
-    "url": "LinuxHacks/docs/utilities/create_bootable_drive.html#create-bootable-usb-drive",
+    "url": "/docs/utilities/create_bootable_drive.html#create-bootable-usb-drive",
     "relUrl": "/utilities/create_bootable_drive.html#create-bootable-usb-drive"
   },"20": {
     "doc": "Create Bootable Drive",
     "title": "Windows",
     "content": "WoeUSB is a tool to create a bootable flash drive media for Windows systems. Download the application from the WoeUSB repository and use the following commands where the .bash file was downloaded to: . chmod +x path/to/woeusb-N.N.N.bash sudo bash path/to/woeusb-N.N.N.bash --devices win.iso /dev/sdX # win.iso is the Windows iso file, and sdX is the file representing the flash drive . Disclaimer: The application does not prompt you to confirm this action. Please ensure that the file and drive are correct. Disclaimer: The process may take a long time. It may seem to hault, but is actually doing work in the background. ",
-    "url": "LinuxHacks/docs/utilities/create_bootable_drive.html#windows",
+    "url": "/docs/utilities/create_bootable_drive.html#windows",
     "relUrl": "/utilities/create_bootable_drive.html#windows"
   },"21": {
     "doc": "Create Bootable Drive",
     "title": "Create Bootable Drive",
     "content": " ",
-    "url": "LinuxHacks/docs/utilities/create_bootable_drive.html",
+    "url": "/docs/utilities/create_bootable_drive.html",
     "relUrl": "/utilities/create_bootable_drive.html"
   },"22": {
     "doc": "Devices",
     "title": "Devices",
     "content": " ",
-    "url": "LinuxHacks/docs/utilities/devices.html",
+    "url": "/docs/utilities/devices.html",
     "relUrl": "/utilities/devices.html"
   },"23": {
     "doc": "Devices",
     "title": "Device Information",
     "content": "List all PCI devices and devices attached to PCI buses: . lspci . DMI table decoder . dmidecode . ",
-    "url": "LinuxHacks/docs/utilities/devices.html#device-information",
+    "url": "/docs/utilities/devices.html#device-information",
     "relUrl": "/utilities/devices.html#device-information"
   },"24": {
     "doc": "Devices",
     "title": "Disk Info and Partitioning",
     "content": "Command-line disk partitioning: . fdisk . List all disk partitions: . sudo blkid . ",
-    "url": "LinuxHacks/docs/utilities/devices.html#disk-info-and-partitioning",
+    "url": "/docs/utilities/devices.html#disk-info-and-partitioning",
     "relUrl": "/utilities/devices.html#disk-info-and-partitioning"
   },"25": {
     "doc": "Utilities",
     "title": "Utilities",
     "content": " ",
-    "url": "LinuxHacks/docs/utilities/utilities.html",
+    "url": "/docs/utilities/utilities.html",
     "relUrl": "/utilities/utilities.html"
   }
 }
