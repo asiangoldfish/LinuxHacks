@@ -3,9 +3,8 @@ gem "jekyll"
 gem "just-the-docs"
 gem "webrick"
 
-gem "github-pages" # uncomment this before pushing to production server
-
 group :jekyll_plugins do
+  gem "github-pages", "~>	226"
   gem "jekyll-feed", "~> 0.12"
   gem 'jekyll-remote-theme'
 end
