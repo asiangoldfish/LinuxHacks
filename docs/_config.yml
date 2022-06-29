@@ -11,7 +11,7 @@ baseurl: "/docs"
 github_username:  asiangoldfish
 
 theme: just-the-docs
-remote-theme: just-the-docs
+remote-theme: just-the-docs/just-the-docs
 
 color_scheme: dark
 
