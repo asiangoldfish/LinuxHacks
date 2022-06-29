@@ -7,7 +7,7 @@ url: https://asiangoldfish.github.io/LinuxHacks
 baseurl: ""
 github_username: asiangoldfish
 
-theme: just-the-docs
+# theme: just-the-docs
 remote_theme: pages-themes/minimal@v0.2.0
 
 plugins:
