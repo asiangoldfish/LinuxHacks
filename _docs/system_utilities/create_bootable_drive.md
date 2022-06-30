@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Create Bootable Drive
-parent: Utilities
+parent: System Utilities
 ---
 
 # Create Bootable USB Drive

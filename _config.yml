@@ -7,8 +7,8 @@ url: https://asiangoldfish.github.io/
 baseurl: "/LinuxHacks"
 github_username: asiangoldfish
 
-remote_theme: just-the-docs/just-the-docs
-#theme: just-the-docs
+#remote_theme: just-the-docs/just-the-docs
+theme: just-the-docs
 
 exclude:
   - "node_modules/"

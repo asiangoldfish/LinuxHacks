@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Tools
-parent: File Management
+parent: Files
 ---
 
 # Tools
