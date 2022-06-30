@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Network Commands
+title: File Commands
 parent: Files
 ---
 

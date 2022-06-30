@@ -14,7 +14,13 @@ has_toc: true
   - [Strings](#strings)
 
 ## Documentation
-[gnu.org](https://www.gnu.org/software/bash/manual/bash.pdf)
+Bash documentations come in different formats. Use the table below to find the appropriate format for you.
+
+| Format | Link |
+|:-------|:-----|
+| HTML | [gnu.org](https://www.gnu.org/software/bash/manual/bash.html){: .btn .btn-blue } |
+| PDF | [gnu.org](https://www.gnu.org/software/bash/manual/bash.pdf){: .btn .btn-blue } |
+| Manpages | [linux.die.net](https://linux.die.net/man/1/bash){: .btn .btn-blue } |
 
 ## Overview
 One of the most commonly used shell command languages and the default shell in most popular Linux distributions.

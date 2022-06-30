@@ -1,13 +1,12 @@
 ---
 layout: default
-title: Tools
+title: File Management Tools
 parent: Files
 ---
 
-# Tools
+# File Management Tools
 
-Ranger: [networkworld.com](https://www.networkworld.com/article/3252222/the-linux-ranger.html)  
-Activate the Ranger interface:
-```sh
-ranger
-```
+| Name | More info |
+|:-----|:----------|
+| Ranger | [networkworld.com](https://www.networkworld.com/article/3252222/the-linux-ranger.html) |
+| Nnn's Not Noice | [https://github.com/jarun/nnn](https://github.com/jarun/nnn) |

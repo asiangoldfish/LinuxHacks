@@ -55,5 +55,9 @@ just_the_docs:
       search_exclude: false
 
 aux_links:
-  "Just the Docs on GitHub":
-    - "//github.com/just-the-docs/just-the-docs"
+  "Gist":
+    - "//gist.github.com/asiangoldfish/b1ec263aad4531712747c7ee3cc98941"
+  "Source Code":
+    - "//github.com/asiangoldfish/LinuxHacks"
+  
+aux_links_new_tab: true
