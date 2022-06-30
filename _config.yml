@@ -8,9 +8,23 @@ baseurl: "/LinuxHacks"
 github_username: asiangoldfish
 
 remote_theme: just-the-docs/just-the-docs
+#theme: just-the-docs
 
-exclude: ["node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "package.json", "package-lock.json",  "script/", "LICENSE.txt", "lib/", "bin/", "README.md"
-]
+exclude:
+  - "node_modules/"
+  - "*.gemspec"
+  - "*.gem"
+  - "Gemfile"
+  - "Gemfile.lock"
+  - "package.json"
+  - "package-lock.json"
+  - "script/"
+  - "LICENSE.txt"
+  - "lib/"
+  - "bin/"
+  - "README.md"
+  - "docs/test"
+  - "vendor/bundle"
 
 back_to_top: true
 back_to_top_text: "Back to top"
