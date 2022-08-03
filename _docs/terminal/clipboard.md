@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Terminal
+title: Clipboard
 has_children: true
 ---
 
