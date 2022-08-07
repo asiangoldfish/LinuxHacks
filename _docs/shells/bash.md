@@ -12,6 +12,8 @@ has_toc: true
   - [Overview](#overview)
   - [Detect A Sourced Script](#detect-a-sourced-script)
   - [Strings](#strings)
+  - [Arrays](#arrays)
+  - [File Paths](#file_paths)
 
 ## Documentation
 Bash documentations come in different formats. Use the table below to find the appropriate format for you.
@@ -99,4 +101,20 @@ length="${#array[@]}"
 array=( "foo" )
 length="${#array[@]}"
 element="${array[$length - 1]}"
+```
+
+## File Paths
+
+### Script Absolute File path
+Source: [https://codefather.tech/blog/bash-get-script-directory/](https://codefather.tech/blog/bash-get-script-directory/)
+
+To get the absolute file path of the running script, execute the following command:
+
+```sh
+cd $(dirname "${BASH_SOURCE[0]}") && pwd
+```
+
+To store it in a variable:
+```sh
+VAR="$(cd $(dirname "${BASH_SOURCE[0]}") && pwd)"
 ```
