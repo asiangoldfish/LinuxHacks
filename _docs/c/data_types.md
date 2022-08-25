@@ -2,6 +2,7 @@
 layout: default
 title: Data Types
 parent: C
+has_children: true
 ---
 
 # Data Types

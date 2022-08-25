@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Clipboard
-has_children: true
+parent: Terminal
 ---
 
 # Clipboard
