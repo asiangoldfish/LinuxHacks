@@ -2,6 +2,7 @@
 layout: default
 title: Command-line Utility
 parent: Python
+grand_parent: Programming Languages
 ---
 
 # Command-line Utility

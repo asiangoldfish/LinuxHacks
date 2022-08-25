@@ -1,8 +1,7 @@
 ---
 layout: default
 title: Bash
-parent: Shells
-has_toc: true
+parent: Programming Languages
 ---
 
 # Bash

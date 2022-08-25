@@ -2,6 +2,7 @@
 layout: default
 title: Data Types
 parent: C
+grand_parent: Programming Languages
 has_children: true
 ---
 
