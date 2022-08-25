@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Data Types
-parent: Files
+parent: C
 ---
 
 # Data Types
