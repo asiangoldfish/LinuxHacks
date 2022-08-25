@@ -7,6 +7,7 @@ parent: C
 # Data Types
 
 ## Integers - Whole numbers
+
 | Type          | Description                                   | Example   | Formatting        |
 |:--------------|:----------------------------------------------|:----------|:------------------|
 | int           | A whole number                                | 2         | %i, %o or %x      |
@@ -15,6 +16,7 @@ parent: C
 | short int     | Smaller sized version of int. No less than 16-bit | 13    | %hi, %ho or %hx   |
 
 ## Floating Point Numbers
+
 | Type          | Description                                   | Example   | Formatting        |
 |:--------------|:----------------------------------------------|:----------|:------------------|
 | float         | Decimal numbers                               | 1.3       | %f, %e or %g      |
@@ -22,11 +24,13 @@ parent: C
 | long double   | Decimal numbers                               |           | %Lf, %Le or %Lg   |
 
 ## Characters
+
 | Type          | Description                                   | Example   | Formatting        |
 |:--------------|:----------------------------------------------|:----------|:------------------|
 | char          | A single character                            | A         | %c                |
 
 ## Bools
+
 | Type          | Description                                   | Example   | Formatting        |
 |:--------------|:----------------------------------------------|:----------|:------------------|
 | \_Bool        | Signifies whether a value is true or false    | 1 or 0    | %i                |
