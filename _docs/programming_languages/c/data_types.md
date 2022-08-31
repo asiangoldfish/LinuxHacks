@@ -31,6 +31,12 @@ has_children: true
 |:--------------|:----------------------------------------------|:----------|:------------------|
 | char          | A single character                            | A         | %c                |
 
+## Strings
+
+| Type          | Description                                   | Example   | Formatting        |
+|:--------------|:----------------------------------------------|:----------|:------------------|
+| char[]        | Array of strings                              | Foo       | %s                |
+
 ## Bools
 
 | Type          | Description                                   | Example   | Formatting        |
