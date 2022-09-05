@@ -12,9 +12,10 @@ Most shells in Unix and Unix-like operating systems offer similar commands for m
 |:----------------------------------|:------------------------------------------|
 | Create new file                   | `touch FILENAME`                          |
 | Create new directory              | `mkdir DIRNAME`                           |
-| Move file/directory               | `mv path/to/source path/to/target`        |
 | Copy file                         | `cp path/to/source path/to/target`        |
-| Delete file                       | `rm path/to/file`                         |
-| Delete empty directory            | `rmdir path/to/directory`                 |
 | Delete directory recursively      | `rm -r path/to/directory`                 |
+| Delete empty directory            | `rmdir path/to/directory`                 |
+| Delete file                       | `rm path/to/file`                         |
 | Delete forcefully                 | `rm -f path/to/file`                      |
+| Find file                         | `find $DIRNAME -name $PATTERN`            |
+| Move file/directory               | `mv path/to/source path/to/target`        |
