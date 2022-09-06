@@ -35,7 +35,7 @@ has_children: true
 
 | Type          | Description                                   | Example   | Formatting        |
 |:--------------|:----------------------------------------------|:----------|:------------------|
-| char[]        | Array of strings                              | Foo       | %s                |
+| char[]        | Array of chars                                | Foo       | %s                |
 
 ## Bools
 
