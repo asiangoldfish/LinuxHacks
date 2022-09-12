@@ -42,4 +42,26 @@ grand_parent: Programming Languages
 |:--------------|:----------------------------------------------|:----------|:------------------|
 | \_Bool        | Signifies whether a value is true or false    | 1 or 0    | %i                |
 
+### Formatting with printf()
+Variables may be formatted to take up a fixed amount of space to create virtual columns.
+To format it in such way: `%10i`. This means to reserve 10 columns to the integer value.
+This works with other datatypes that `printf` supports. Example:
 
+```c
+#include <stdio.h>
+
+void main(void)
+{
+    char[10] name = Charles;
+    int age = 21;
+
+    printf("Name: %10s", name);
+    printf("Age: %10i", age);
+}
+```
+
+**Format**
+Print memory address:
+```c
+printf("%p", &name);
+```
