@@ -23,6 +23,12 @@ Most shells in Unix and Unix-like operating systems offer similar commands for m
 | `mv path/to/source path/to/target`        | Move file/directory               |
 | `tail`                                    |                                   |
 | `touch FILENAME`                          | Create new file                   |
+| `entr`                                    | Mimic keyboard actions            |
+
+## Entr
+| Commands                                  | Description                       |
+|:------------------------------------------|:----------------------------------|
+| `ls | entr $some_command`                 | Execute named commands whenever a file has changed |
 
 # Navigation Commands
 
@@ -31,4 +37,5 @@ Most shells in Unix and Unix-like operating systems offer similar commands for m
 | `cd`                                     | Change working directory           |
 | `ls`                             | List content of current working directory  |
 | `pwd`                               | Print name of current working directory |
+
 
