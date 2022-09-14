@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Data Types
+title: Escape Characters
 parent: C
 grand_parent: Programming Languages
 ---
