@@ -42,6 +42,12 @@ grand_parent: Programming Languages
 |:--------------|:----------------------------------------------|:----------|:------------------|
 | \_Bool        | Signifies whether a value is true or false    | 1 or 0    | %i                |
 
+## Pointers
+
+| Type          | Description                                   | Example   | Formatting        |
+|:--------------|:----------------------------------------------|:----------|:------------------|
+| Pointer       | Prints the address of a given poitner         | 0x6f821d  | %#x               |
+
 ### Formatting with printf()
 Variables may be formatted to take up a fixed amount of space to create virtual columns.
 To format it in such way: `%10i`. This means to reserve 10 columns to the integer value.
