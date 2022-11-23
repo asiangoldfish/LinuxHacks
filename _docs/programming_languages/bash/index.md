@@ -13,6 +13,7 @@ parent: Programming Languages
   - [Strings](#strings)
   - [Arrays](#arrays)
   - [File Paths](#file_paths)
+  - [Executing Copied Code From the Internet](#executing-copied-code-from-the-internet)
 
 ## Documentation
 Bash documentations come in different formats. Use the table below to find the appropriate format for you.
@@ -109,11 +110,30 @@ Source: [https://codefather.tech/blog/bash-get-script-directory/](https://codefa
 
 To get the absolute file path of the running script, execute the following command:
 
-```sh
+```
 cd $(dirname "${BASH_SOURCE[0]}") && pwd
 ```
 
 To store it in a variable:
-```sh
+```
 VAR="$(cd $(dirname "${BASH_SOURCE[0]}") && pwd)"
 ```
+
+## Executing Copied Code From the Internet
+Sometimes you find code from the internet and you want to quickly execute it.
+Example:
+```
+git clone https://github.com/some_random_person/foobar.git
+echo 'PATH:"$PATH:$HOME/foobar"' >> ~/.bashrc
+```
+Unfortunately, you can't simply copy and paste them to your terminal and hit
+Enter. Each command must be on their new line or seperated with delimiters
+like `&&`, `\` or `;`. Instead, do this:
+
+```
+bash <(git clone https://github.com/asiangoldfish/safe_rm.git
+echo 'PATH:"$PATH:$HOME/safe_rm"' >> ~/.bashrc
+)>
+```
+
+It'll open a new shell and executes the copied code right away.
