@@ -25,10 +25,14 @@ Most shells in Unix and Unix-like operating systems offer similar commands for m
 | `touch FILENAME`                          | Create new file                   |
 | `entr`                                    | Mimic keyboard actions            |
 
-## Entr
-| Commands                                  | Description                       |
-|:------------------------------------------|:----------------------------------|
-| `ls | entr $some_command`                 | Execute named commands whenever a file has changed |
+## Progression Bar
+There is a patch for the `cp` and `mv` commands that adds a progession bar. To
+patch the commands, follow along this tutorial: [Advanced Copy – Add Progress Bar To cp And mv Commands In Linux](https://ostechnix.com/advanced-copy-add-progress-bar-to-cp-and-mv-commands-in-linux/)
+
+# Entr
+| Commands                                  | Description                                        |
+|:------------------------------------------|:---------------------------------------------------|
+| `ls \| entr SOME_COMMAND`                 | Execute named commands whenever a file has changed |
 
 # Navigation Commands
 
