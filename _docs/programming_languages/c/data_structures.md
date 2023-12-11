@@ -25,4 +25,23 @@ enum WeekDays {
     day6 = saturday,
     day7 = sunday
 };
+
+// Another way to declare an enum
+enum AnotherWayToDeclareEnum {
+    monday = 0, // Here we explicitly specify that monday has index 0
+    tuesday,
+    wednesday,
+    thursday,
+    friday,
+    saturday,
+    sunday
+};
 ```
+
+To use an enum:
+
+```c
+enum WeekDays weekDay = day1
+enum AnotherWayToDeclareEnum anotherEnum = monday;
+```
+
