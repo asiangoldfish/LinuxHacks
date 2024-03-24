@@ -4,6 +4,10 @@ title: Desktop Environments
 parent: GNU / Linux
 ---
 
+# Contents
+- TOC
+{:toc}
+
 # Desktop Environments
 
 ## Xfce

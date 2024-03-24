@@ -1,8 +1,18 @@
 ---
 layout: default
-title: PPTX to PDF
-parent: Files
+title: File Conversions
+parent: File Management
+grand_parent: GNU / Linux
 ---
+
+# PDF To Plain Text
+
+Convert a PDF file to plain text.
+
+```sh
+pdftotext foo.pdf bar.txt
+```
+
 
 # PPTX to PDF
 

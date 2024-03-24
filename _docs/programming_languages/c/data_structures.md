@@ -5,10 +5,11 @@ parent: C
 grand_parent: Programming Languages
 ---
 
-# Data Structures
 
-## Table of Content
-- [Enumeration](#enumeration)
+- Table of Content
+{:toc}
+
+# Data Structures
 
 ## Enumeration
 

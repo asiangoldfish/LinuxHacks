@@ -1,7 +1,8 @@
 ---
 layout: default
-title: Files
+title: File Management
 has_children: true
+parent: GNU / Linux
 ---
 
 # Files

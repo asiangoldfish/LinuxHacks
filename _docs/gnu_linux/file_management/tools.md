@@ -1,7 +1,8 @@
 ---
 layout: default
 title: File Management Tools
-parent: Files
+parent: File Management
+grand_parent: GNU / Linux
 ---
 
 # File Management Tools

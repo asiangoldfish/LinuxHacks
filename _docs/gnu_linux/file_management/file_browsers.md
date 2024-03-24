@@ -1,7 +1,8 @@
 ---
 layout: default
 title: File Browsers
-parent: Files
+parent: File Management
+grand_parent: GNU / Linux
 ---
 
 # File Browsers

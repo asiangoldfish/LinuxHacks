@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Devices
+parent: GNU / Linux
 has_children: true
 ---
 
