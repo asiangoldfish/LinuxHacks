@@ -4,9 +4,7 @@ title: Desktop Environments
 parent: GNU / Linux
 ---
 
-# Contents
-- TOC
-{:toc}
+[Previous](./index.html)
 
 # Desktop Environments
 
