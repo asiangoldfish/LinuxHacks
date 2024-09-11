@@ -7,14 +7,14 @@ grand_parent: Programming Languages
 
 # Flow Control
 
-Flow control mechanisms are used to loop a commands, possibly controlling a program's behaviour repeatedly.
+Flow control is a technique to dynamically change a program's behaviour based on determined conditions. In C, we mainly have the following flow control mechanisms:
 
-## Table of Content
-
-- [Related Keywords](#related-keywords)
-- [While Loop](#while-loop)
-- [Do While Loop](#do-while-loop)
-- [For Loop](#for-loop)
+- if statements
+- switch cases
+- for loop
+- while loop
+- do-while loop
+- 
 
 ## Related Keywords
 
