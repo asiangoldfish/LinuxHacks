@@ -33,6 +33,13 @@ last_edit_time_format: "%b %e %Y at %I:%M %p"
 
 color_scheme: dark
 
+# Define callouts here.
+# Usage example: {: .syntax }
+callouts:
+  note:
+    title: Note
+    color: yellow
+
 compress_html:
   clippings: all
   comments: all
